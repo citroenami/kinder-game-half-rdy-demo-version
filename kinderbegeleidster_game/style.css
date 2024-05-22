@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  /*
+  If you apply overflow: hidden to the <body> element 
+  after scrolling down, it will prevent further scrolling
+  because it clips the content that overflows the visible
+  area of the element. Once you apply overflow: hidden,
+  the browser viewport is essentially restricted to only
+  display the visible content, and scrolling beyond that
+  is disabled.
+  */
+}
+
+.main {
+  width: 620px;
+  height: 640px;
+  border: 1px solid black;
+}
+
+.info {
+  display: flex;
+  height: 50px;
+  flex: 1;
+  border-bottom: 1px solid black;
+}
+
+.game-title {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.clue-window {
+  display: flex;
+  flex: 2;
+  align-items: center;
+}
+
+.clue-btn {
+  background-color: rgb(52, 152, 194);
+  height: 50%;
+  min-width: 100px;
+  border: none;
+  border-radius: 4px;
+  color: rgb(245, 215, 151);
+  white-space: nowrap;
+}
+
+.clue-textbox{
+  margin-left: 15px;
+}
+
+.currentPlace {
+  color: blueviolet;
+}
+
+.currentStatelocked{
+  color: red;
+}
+
+.currentStateunlocked{
+  color: rgb(4, 183, 4);
+}

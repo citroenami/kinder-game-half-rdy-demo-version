@@ -1,0 +1,445 @@
+.game-field {
+ height: 100%;
+ width: 100%;
+}
+
+.kinderbegeleidster-character {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  z-index: 100;
+}
+
+.kinderbegeleidster-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.full_map-character {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.full_map-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.bus-character {
+  height: 45px;
+  width: 80px;
+}
+
+.bus-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.desert-character {
+  height: 180px;
+  width: 180px;
+ 
+}
+
+.desert-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.school_vacation-character {
+  height: 150px;
+  width: 180px;
+}
+
+.school_vacation-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.wrong_turn-character {
+  height: 150px;
+  width: 180px;
+}
+
+.wrong_turn-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.map_area_locked-character {
+  height: 35px;
+  width: 35px;
+}
+
+.map_area_locked-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.map_area_unlocked-character {
+  height: 35px;
+  width: 35px;
+}
+
+.map_area_unlocked-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.position_field-character {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+.position_field-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.school_vacation_main-character {
+  width: 619px;
+  height: 640px;
+  position: absolute;
+}
+
+.school_vacation_main-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.kid_boy_head-character {
+  position: absolute;
+  height: 13px;
+  width: 13px;
+  top: 2px;
+}
+
+.kid_boy_head-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.board_woods-character {
+  height: 110px;
+  width: 100px;
+}
+
+.board_woods-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.board_playground-character {
+  height: 110px;
+  width: 100px;
+}
+
+.board_playground-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.distant_shout_from_right1-character {
+  height: 50px;
+  width: 25px;
+  position: absolute;
+}
+
+.distant_shout_from_right1-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.distant_shout_from_right2-character {
+  height: 50px;
+  width: 25px;
+  position: absolute;
+}
+
+.distant_shout_from_right2-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.building-inside {
+  visibility: hidden;
+}
+
+.inventory_building-character {
+  height: 180px;
+  width: 150px;
+}
+
+.inventory_building-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.inventory_building_inside-character {
+  opacity: 0;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 140px;
+  left: 100px;
+}
+
+.building-inside-true {
+  opacity: 1;
+}
+
+.inventory_building_inside-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.inventory_whole-character {
+  height: 180px;
+  width: 150px;
+  position: absolute;
+}
+
+.inventory_whole-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.inventory_whole_minimised-character {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+}
+
+.inventory_whole_minimised-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.item_honey-character {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 120px;
+  left: 170px;
+}
+
+.item_honey-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.item_honey-inside-inventory {
+  position: absolute;
+  top: 22px;
+  left: 15px;
+  opacity: 1;
+}
+
+.item_rope-character {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 120px;
+  left: 210px;
+}
+
+.item_rope-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.item_rope-inside-inventory {
+  position: absolute;
+  top: 22px;
+  left: 65px;
+  opacity: 1;
+}
+
+.item_stick-character {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 120px;
+  left: 250px;
+}
+
+.item_stick-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.item_honey-inside_questbox-slot1,
+.item_rope-inside_questbox-slot1,
+.item_stick-inside_questbox-slot1   {
+  height: 50px;
+  width: 50px;
+  top: 18px;
+  left: 30px;
+}
+
+.item_honey-inside_questbox-slot2,
+.item_rope-inside_questbox-slot2,
+.item_stick-inside_questbox-slot2 {
+  height: 50px;
+  width: 50px;
+  top: 18px;
+  left: 120px;
+}
+
+.item_stick-inside-inventory {
+  position: absolute;
+  top: 22px;
+  left: 110px;
+  opacity: 1; 
+}
+
+.woods-character  {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+
+.woods-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.insertplace_quest_items-character {
+  height: 80px;
+  width: 200px;
+  position: absolute;
+  top: 450px;
+  left: 39px;
+}
+
+.insertplace_quest_items-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.quest_unsolved-character {
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  z-index: 100;
+}
+
+.quest_unsolved-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.quest_solved-character {
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  z-index: 100;
+}
+
+.quest_solved-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.tree-character {
+  height: 350px;
+  width: 250px;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  z-index: 99;
+}
+
+.tree-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.kid_stuck_on_tree-character {
+  height: 350px;
+  width: 250px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+
+.kid_stuck_on_tree-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.kid_rescued_from_bear-character {
+  height: 350px;
+  width: 250px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+}
+
+.kid_rescued_from_bear-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.bear-character {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  z-index: 101;
+  transform: scaleX(-1);
+}
+
+.bear-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.bear_eating-character {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 250px;
+  left: 250px;
+  opacity: 0;
+  z-index: 100;
+}
+
+.bear_eating-character-img {
+  height: 100%;
+  width: 100%;
+}
+
+.b-w-c-sub-scene {
+  position: absolute;
+  top: 240px;
+  left: 10px;
+}
+
+.action-scene {
+  display: none;
+}
+
+.action-scene-done {
+  display: none;
+}
+
+
+.exit-exit-ok {
+  color: rgb(4, 183, 4);
+}
+
+.exit-exit-not-ok {
+  color: rgb(167, 17, 17);
+}
